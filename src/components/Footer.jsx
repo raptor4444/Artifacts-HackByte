@@ -13,9 +13,9 @@ const Footer = () => {
       </div>
       <div className="contents">
         <ul>
-          <li>carrers</li>
-          <li>About</li>
           <li>Home</li>
+          <li>About</li>
+          <li>Careers</li>
         </ul>
       </div>
     </footer>

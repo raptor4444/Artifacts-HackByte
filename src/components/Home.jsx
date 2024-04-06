@@ -10,16 +10,11 @@ import {
 const Home = () => {
   return (
     <>
-      <div class="button-container" id="Patient">
-        <main>
-          <button>Patient</button>
-        </main>
-      </div>
-      <div class="button-container" id="Database">
-        <main>
-          <button>Database</button>
-        </main>
-      </div>
+  <div>
+    <div class="myDiv">
+    <button class="button button3" onClick={"/Patient"}>Patient Details</button>
+    </div>
+  </div>
     </>
   );
 };

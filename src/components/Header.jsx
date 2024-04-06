@@ -9,14 +9,13 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <h1>Cost Care</h1>
+        <h1>CostCare</h1>
         <main>
           <HashLink to={"/#Home"}>Home</HashLink>
           <HashLink to={"/#About"}>About</HashLink>
-          <Link to={"/Contact"}>database</Link>
           { isAuthenticated ? 
           (<Link><button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button></Link>):
-          (<Link><button onClick={() => loginWithRedirect()}>Admin</button></Link>)} 
+          (<Link><button className="admin_button" onClick={() => loginWithRedirect()}>Admin</button></Link>)} 
         </main>
       </nav>
       <hr />

@@ -9,20 +9,28 @@ $first: #f0f0f0; // Define your color variable if not already defined
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
 
-  .Patient,
-  .Database {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1rem;
-  }
+.myDiv {
+  background-color: $first;    
+  text-align: right;
+  margin-top: 5rem;
+  padding: 10rem 20px 10rem 20px;
+  background-image: url("../assets/medical.jpg");
+}
 
-  .Patient {
-    align-items: flex-start;
-  }
 
-  .Database {
-    align-items: flex-end;
-  }
+
+.button {
+  background-color: #5853ff;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 2rem 4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1.5rem 5rem;
+  cursor: pointer;
 }
