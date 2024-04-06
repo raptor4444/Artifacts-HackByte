@@ -1,8 +1,8 @@
 @import "colors";
 
 footer {
-  background-color: #c8cbf6;
-  height: 200px;
+  background-color: #first;
+  height: 100px;
   width: 100%;
   color: $dark;
   display: grid;
@@ -21,7 +21,9 @@ footer {
       color: $third;
     }
     > p {
-      font: 500 0.9rem $text2;
+      font: 500 0.7rem $text2;
     }
+  }
+  .contents {
   }
 }

@@ -12,7 +12,6 @@ $first: #f0f0f0; // Define your color variable if not already defined
 
   .Patient,
   .Database {
-    text-transform: uppercase;
     display: flex;
     flex-direction: row;
     align-items: center;
