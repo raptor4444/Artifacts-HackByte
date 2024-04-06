@@ -1,13 +1,15 @@
 @import "colors";
 
 footer {
-  background-color: $first;
+  background-color: #c8cbf6;
   height: 200px;
   width: 100%;
   color: $dark;
   display: grid;
   grid-template-columns: 4fr 1fr;
   padding: 2rem;
+  position: fixed;
+  bottom: 0;
 
   > div {
     display: flex;
@@ -20,25 +22,6 @@ footer {
     }
     > p {
       font: 500 0.9rem $text2;
-    }
-
-    > h5 {
-      font: 300 2rem $text1;
-      margin: 1rem 0;
-      text-align: center;
-    }
-
-    > div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      a {
-        color: $dark;
-        font: 900 1rem $text2;
-        &:hover {
-          color: $third;
-        }
-      }
     }
   }
 }

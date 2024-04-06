@@ -1,28 +1,29 @@
 @import "colors";
+$first: #f0f0f0; // Define your color variable if not already defined
 
 .home {
   width: 100%;
-  height: 100vh;
-  background-color: $second;
+  height: 10%;
+  background-color: $first;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 
-  > main {
-    position: absolute;
+  .Patient,
+  .Database {
     text-transform: uppercase;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-    height: 100%;
-    padding: 2rem;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+  }
 
-    h1 {
-      font: 400 6rem $text1;
-      color: $first;
-    }
-    p {
-      font: 900 1rem $text1;
-      color: $first;
-    }
+  .Patient {
+    align-items: flex-start;
+  }
+
+  .Database {
+    align-items: flex-end;
   }
 }

@@ -10,10 +10,14 @@ import {
 const Home = () => {
   return (
     <>
-      <div className="home" id="Home">
+      <div class="button-container" id="Patient">
         <main>
-          <h1>Database</h1>
-          <p>Solution to all your problems</p>
+          <button>Patient</button>
+        </main>
+      </div>
+      <div class="button-container" id="Database">
+        <main>
+          <button>Database</button>
         </main>
       </div>
     </>
