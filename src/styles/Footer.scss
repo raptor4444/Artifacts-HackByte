@@ -1,14 +1,14 @@
 @import "colors";
 
 footer {
-  background-color: #first;
+  background-color: $first;
   height: 100px;
   width: 100%;
   color: $dark;
   display: grid;
   grid-template-columns: 4fr 1fr;
   padding: 2rem;
-  position: fixed;
+  position: relative;
   bottom: 0;
 
   > div {
@@ -17,7 +17,7 @@ footer {
     justify-content: center;
     > h2 {
       font: 700 2rem $text1;
-      text-transform: uppercase;
+
       color: $third;
     }
     > p {
@@ -25,10 +25,9 @@ footer {
     }
   }
   .contents {
-    >ul
-      {
-        display: flex;
-        justify-content: space-evenly;
-      }
+    > ul {
+      display: flex;
+      justify-content: space-evenly;
+    }
   }
 }

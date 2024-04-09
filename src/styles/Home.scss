@@ -12,18 +12,17 @@ $first: #f0f0f0; // Define your color variable if not already defined
 }
 
 .myDiv {
-  background-color: $first;    
+  background-color: $first;
   text-align: right;
   margin-top: 5rem;
-  padding: 10rem 20px 10rem 20px;
+  margin-bottom: 5rem;
+  padding: 10rem 10px 10rem 10px;
   background-image: url("../assets/medical.jpg");
 }
 
-
-
 .button {
   background-color: #5853ff;
-  border: none;
+  border: 1px solid $first;
   border-radius: 10%;
   color: white;
   padding: 2rem 4rem;
@@ -33,4 +32,9 @@ $first: #f0f0f0; // Define your color variable if not already defined
   font-size: 16px;
   margin: 1.5rem 5rem;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+  color: $first;
 }

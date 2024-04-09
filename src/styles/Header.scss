@@ -14,13 +14,19 @@ nav {
   .admin_button {
     background-color: #5853ff;
     border-radius: 10%;
-    color: white;
+    color: $first;
     padding: 0.5rem 1rem;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
     margin-top: -7px;
     cursor: pointer;
+    border: none;
+  }
+
+  .button:hover {
+    background-color: black;
+    color: $first;
   }
 
   > h1 {
